@@ -25,12 +25,10 @@ body {
 }
 .webpagesbutton{
     display: none;
-    gap:2rem;
-    align-items: center;
 }
 .bars {
     align-self:center;
-    margin-right:2.8rem;
+    margin-right:2rem;
     font-size:1.7rem;
     color:black;
 }
@@ -1844,6 +1842,8 @@ margin-left:0.4rem;
     }
     .webpagesbutton{
         display: flex;
+        gap:2rem;
+        align-items: center;
     }
     .bars {
         display:none;
