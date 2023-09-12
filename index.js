@@ -86,7 +86,7 @@ let minmindropdown = false
 let weblinkA = document.querySelector('.weblinkA')
 document.querySelector('.weblinkx').addEventListener('mouseover', () => {
     if(minmindropdown = true){
-        logoWebPages.style.height = '33.7rem'
+        logoWebPages.style.height = 'auto'
         weblinkA.style.display = 'flex'
     }else {
         logoWebPages.style.height = '21rem'
@@ -95,7 +95,6 @@ document.querySelector('.weblinkx').addEventListener('mouseover', () => {
 })
 document.querySelector('.weblinkx').addEventListener('mouseout', () => {
     if(minmindropdown === true){
-        minmindropdown = false
         logoWebPages.style.height =  '21rem'
         weblinkA.style.display = 'none'
     }
@@ -104,7 +103,7 @@ let minmindropdown2 = false
 let weblinkA2 = document.querySelector('.ax2')
 document.querySelector('.wbx2').addEventListener('mouseover', () => {
     if(minmindropdown2 = true){
-        logoWebPages.style.height = '31rem'
+        logoWebPages.style.height = 'auto'
         weblinkA2.style.display = 'flex'
     }else {
         logoWebPages.style.height = '21rem'
@@ -122,7 +121,7 @@ let minmindropdown3 = false
 let weblinkA3 = document.querySelector('.ax3')
 document.querySelector('.wbx3').addEventListener('mouseover', () => {
     if(minmindropdown3 = true){
-        logoWebPages.style.height = '28.7rem'
+        logoWebPages.style.height = 'auto'
         weblinkA3.style.display = 'flex'
     }else {
         logoWebPages.style.height = '21rem'
@@ -140,7 +139,7 @@ let minmindropdown4 = false
 let weblinkA4 = document.querySelector('.ax4')
 document.querySelector('.wbx4').addEventListener('mouseover', () => {
     if(minmindropdown4 = true){
-        logoWebPages.style.height = '26.2rem'
+        logoWebPages.style.height = 'auto'
         weblinkA4.style.display = 'flex'
     }else {
         logoWebPages.style.height = '21rem'
