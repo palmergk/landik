@@ -1,4 +1,4 @@
-body {
+html {
     overflow-x: hidden;
     padding:0;
     margin:0;
@@ -1279,6 +1279,18 @@ input[type=text]:focus {
 
 
 @media screen and (min-width:768px) {
+    html {
+    overflow-x:visible;
+    padding:0;
+    margin:0;
+    width: auto;
+}
+    body {
+    overflow-x: hidden;
+    padding:0;
+    margin:0;
+    width: auto;
+}
     .logo-webpages>a img {
         margin-left:3.5rem;
         height:4.8vh;
@@ -2021,6 +2033,18 @@ margin-left:0.4rem;
 
 
 @media screen and (min-width:992px) {
+    html {
+    overflow-x:visible;
+    padding:0;
+    margin:0;
+    width: auto;
+}
+    body {
+    overflow-x: hidden;
+    padding:0;
+    margin:0;
+    width: auto;
+}
     .logo-webpages {
         position:relative;
         position:sticky;
