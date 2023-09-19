@@ -77,7 +77,7 @@ document.querySelector('.bars').addEventListener('click', () => {
         times.style.display = 'none'
     }else {
         mindropdown = true
-        logoWebPages.style.height = '21rem'
+        logoWebPages.style.height = 'auto'
         bars.style.display = 'none'
         times.style.display = 'flex'
     }
@@ -89,13 +89,13 @@ document.querySelector('.weblinkx').addEventListener('mouseover', () => {
         logoWebPages.style.height = 'auto'
         weblinkA.style.display = 'flex'
     }else {
-        logoWebPages.style.height = '21rem'
+        logoWebPages.style.height = 'auto'
         weblinkA.style.display = 'flex'
     }
 })
 document.querySelector('.weblinkx').addEventListener('mouseout', () => {
     if(minmindropdown === true){
-        logoWebPages.style.height =  '21rem'
+        logoWebPages.style.height =  'auto'
         weblinkA.style.display = 'none'
     }
 })
@@ -106,14 +106,14 @@ document.querySelector('.wbx2').addEventListener('mouseover', () => {
         logoWebPages.style.height = 'auto'
         weblinkA2.style.display = 'flex'
     }else {
-        logoWebPages.style.height = '21rem'
+        logoWebPages.style.height = 'auto'
         weblinkA2.style.display = 'flex'
     }
 })
 document.querySelector('.wbx2').addEventListener('mouseout', () => {
     if(minmindropdown2 === true){
         minmindropdown2 = false
-        logoWebPages.style.height =  '21rem'
+        logoWebPages.style.height =  'auto'
         weblinkA2.style.display = 'none'
     }
 })
@@ -124,14 +124,14 @@ document.querySelector('.wbx3').addEventListener('mouseover', () => {
         logoWebPages.style.height = 'auto'
         weblinkA3.style.display = 'flex'
     }else {
-        logoWebPages.style.height = '21rem'
+        logoWebPages.style.height = 'auto'
         weblinkA3.style.display = 'flex'
     }
 })
 document.querySelector('.wbx3').addEventListener('mouseout', () => {
     if(minmindropdown3 === true){
         minmindropdown3 = false
-        logoWebPages.style.height =  '21rem'
+        logoWebPages.style.height =  'auto'
         weblinkA3.style.display = 'none'
     }
 })
@@ -142,14 +142,14 @@ document.querySelector('.wbx4').addEventListener('mouseover', () => {
         logoWebPages.style.height = 'auto'
         weblinkA4.style.display = 'flex'
     }else {
-        logoWebPages.style.height = '21rem'
+        logoWebPages.style.height = 'auto'
         weblinkA4.style.display = 'flex'
     }
 })
 document.querySelector('.wbx4').addEventListener('mouseout', () => {
     if(minmindropdown4 === true){
         minmindropdown4 = false
-        logoWebPages.style.height =  '21rem'
+        logoWebPages.style.height =  'auto'
         weblinkA4.style.display = 'none'
     }
 })

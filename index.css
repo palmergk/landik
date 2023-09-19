@@ -1,4 +1,4 @@
-html {
+body {
     overflow-x: hidden;
     padding:0;
     margin:0;
@@ -17,8 +17,7 @@ html {
     z-index:20;
     background: white;
     height:4.5rem;
-    width:100%;
-    overflow:hidden;
+    width:100vw;
 }
 .logo-bars>a img {
     height:4.5vh;
@@ -1279,18 +1278,6 @@ input[type=text]:focus {
 
 
 @media screen and (min-width:768px) {
-    html {
-    overflow-x:visible;
-    padding:0;
-    margin:0;
-    width: auto;
-}
-    body {
-    overflow-x: hidden;
-    padding:0;
-    margin:0;
-    width: auto;
-}
     .logo-webpages>a img {
         margin-left:3.5rem;
         height:4.8vh;
@@ -2033,18 +2020,6 @@ margin-left:0.4rem;
 
 
 @media screen and (min-width:992px) {
-    html {
-    overflow-x:visible;
-    padding:0;
-    margin:0;
-    width: auto;
-}
-    body {
-    overflow-x: hidden;
-    padding:0;
-    margin:0;
-    width: auto;
-}
     .logo-webpages {
         position:relative;
         position:sticky;
