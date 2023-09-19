@@ -18,6 +18,7 @@ body {
     background: white;
     height:4.5rem;
     width:100vw;
+    overflow:hidden;
 }
 .logo-bars>a img {
     height:4.5vh;
